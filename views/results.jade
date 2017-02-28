@@ -1,0 +1,89 @@
+extends layout
+
+block content
+
+    script(src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js")
+
+    script= charts
+
+    each stylesheet in css
+        link(rel="stylesheet" href=stylesheet)
+
+    div.container 
+        div.row
+            div.col-xs-12
+
+                h2= t("RES.THANKYOU")
+
+                p= t("RES.BLABLA")
+
+                p= t("RES.RESULTS")
+
+                p= t("RES.EXPLANATION")
+
+                p= t("RES.WARNING")
+
+                h4= t("RES.NEUROT")
+                p= t("RES.T_NEUROT")
+                div.row
+                    div.col-xs-0.col-sm-2.col-md-3
+                    div.col-xs-12.col-sm-8.col-md-6
+                        div.ct-chart.ct-perfect-fourth#chart0
+
+                h4= t("RES.EXTRAV")
+                p= t("RES.T_EXTRAV")
+                div.row
+                    div.col-xs-0.col-sm-2.col-md-3
+                    div.col-xs-12.col-sm-8.col-md-6
+                        div.ct-chart.ct-perfect-fourth#chart1
+
+                h4= t("RES.OPENN")
+                p= t("RES.T_OPENN")
+                div.row
+                    div.col-xs-0.col-sm-2.col-md-3
+                    div.col-xs-12.col-sm-8.col-md-6
+                        div.ct-chart.ct-perfect-fourth#chart2
+
+                h4= t("RES.AGREAB")
+                p= t("RES.T_AGREAB")
+                div.row
+                    div.col-xs-0.col-sm-2.col-md-3
+                    div.col-xs-12.col-sm-8.col-md-6
+                        div.ct-chart.ct-perfect-fourth#chart3
+
+                h4= t("RES.CONSC")
+                p= t("RES.T_CONSC")
+                div.row
+                    div.col-xs-0.col-sm-2.col-md-3
+                    div.col-xs-12.col-sm-8.col-md-6
+                        div.ct-chart.ct-perfect-fourth#chart4
+
+    script.
+        var options = {};
+        var responsiveOptions = {};
+        var labels = [];
+        for(var i = 0; i < 120; i++) {
+            if(i % 5 == 0) {
+                labels[i] = i;
+            } else {
+                labels[i] = '';
+            }
+        }
+        
+
+        window.onload = function() {
+
+        for(var i = 0; i < globalResults.length; i++) {
+            var data = {series:[globalResults[i]],labels:labels};
+            new Chartist.Bar("#chart"+i, data, options, responsiveOptions); 
+        }
+
+        setTimeout(function(){
+            var svgs = document.getElementsByTagName("svg");
+            for(var i = 0; i < userResults.length; i++) {
+                var elem = svgs[i].children[1].children[0].children[userResults[i]];
+                elem.setAttribute("class",elem.getAttribute("class")+" my-bar");
+            }
+        },100);
+            
+        }

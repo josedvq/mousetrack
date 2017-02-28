@@ -1,0 +1,690 @@
+[
+	{
+		"t":"Worry about things.",
+		"s":"N1",
+		"k":1
+	},
+	{
+		"t":"Fear for the worst.",
+		"s":"N1",
+		"k":1
+	},
+	{
+		"t":"Am afraid of many things.",
+		"s":"N1",
+		"k":1
+	},
+	{
+		"t":"Get stressed out easily.",
+		"s":"N1",
+		"k":1
+	},
+
+
+
+	{
+		"t":"Get angry easily.",
+		"s":"N2",
+		"k":1
+	},
+	{
+		"t":"Get irritated easily.",
+		"s":"N2",
+		"k":1
+	},
+	{
+		"t":"Lose my temper.",
+		"s":"N2",
+		"k":1
+	},
+	{
+		"t":"Am not easily annoyed.",
+		"s":"N2",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Often feel blue.",
+		"s":"N3",
+		"k":1
+	},
+	{
+		"t":"Dislike myself.",
+		"s":"N3",
+		"k":1
+	},
+	{
+		"t":"Am often down in the dumps.",
+		"s":"N3",
+		"k":1
+	},
+	{
+		"t":"Feel comfortable with myself.",
+		"s":"N3",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Find it difficult to approach others.",
+		"s":"N4",
+		"k":1
+	},
+	{
+		"t":"Am afraid to draw attention to myself.",
+		"s":"N4",
+		"k":1
+	},
+	{
+		"t":"Only feel comfortable with friends.",
+		"s":"N4",
+		"k":1
+	},
+	{
+		"t":"Am not bothered by difficult social situations.",
+		"s":"N4",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Go on binges.",
+		"s":"N5",
+		"k":1
+	},
+	{
+		"t":"Rarely overindulge.",
+		"s":"N5",
+		"k":-1
+	},
+	{
+		"t":"Easily resist temptations.",
+		"s":"N5",
+		"k":-1
+	},
+	{
+		"t":"Am able to control my cravings.",
+		"s":"N5",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Panic easily.",
+		"s":"N6",
+		"k":1
+	},
+	{
+		"t":"Become overwhelmed by events.",
+		"s":"N6",
+		"k":1
+	},
+	{
+		"t":"Feel that I'm unable to deal with things.",
+		"s":"N6",
+		"k":1
+	},
+	{
+		"t":"Remain calm under pressure.",
+		"s":"N6",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Make friends easily.",
+		"s":"E1",
+		"k":1
+	},
+	{
+		"t":"Feel comfortable around people.",
+		"s":"E1",
+		"k":1
+	},
+	{
+		"t":"Avoid contacts with others.",
+		"s":"E1",
+		"k":-1
+	},
+	{
+		"t":"Keep others at a distance.",
+		"s":"E1",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Love large parties.",
+		"s":"E2",
+		"k":1
+	},
+	{
+		"t":"Talk to a lot of different people at parties.",
+		"s":"E2",
+		"k":1
+	},
+	{
+		"t":"Prefer to be alone.",
+		"s":"E2",
+		"k":-1
+	},
+	{
+		"t":"Avoid crowds.",
+		"s":"E2",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Take charge.",
+		"s":"E3",
+		"k":1
+	},
+	{
+		"t":"Try to lead others.",
+		"s":"E3",
+		"k":1
+	},
+	{
+		"t":"Take control of things.",
+		"s":"E3",
+		"k":1
+	},
+	{
+		"t":"Wait for others to lead the way.",
+		"s":"E3",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Am always busy.",
+		"s":"E4",
+		"k":1
+	},
+	{
+		"t":"Am always on the go.",
+		"s":"E4",
+		"k":1
+	},
+	{
+		"t":"Do a lot in my spare time.",
+		"s":"E4",
+		"k":1
+	},
+	{
+		"t":"Like to take it easy.",
+		"s":"E4",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Love excitement.",
+		"s":"E5",
+		"k":1
+	},
+	{
+		"t":"Seek adventure.",
+		"s":"E5",
+		"k":1
+	},
+	{
+		"t":"Enjoy being reckless.",
+		"s":"E5",
+		"k":1
+	},
+	{
+		"t":"Act wild and crazy.",
+		"s":"E5",
+		"k":1
+	},
+
+
+
+	{
+		"t":"Radiate joy.",
+		"s":"E6",
+		"k":1
+	},
+	{
+		"t":"Have a lot of fun.",
+		"s":"E6",
+		"k":1
+	},
+	{
+		"t":"Love life.",
+		"s":"E6",
+		"k":1
+	},
+	{
+		"t":"Look at the bright side of life.",
+		"s":"E6",
+		"k":1
+	},
+
+
+
+	{
+		"t":"Have a vivid imagination.",
+		"s":"O1",
+		"k":1
+	},
+	{
+		"t":"Enjoy wild flights of fantasy.",
+		"s":"O1",
+		"k":1
+	},
+	{
+		"t":"Love to daydream.",
+		"s":"O1",
+		"k":1
+	},
+	{
+		"t":"Like to get lost in thought.",
+		"s":"O1",
+		"k":1
+	},
+
+
+
+	{
+		"t":"Believe in the importance of art.",
+		"s":"O2",
+		"k":1
+	},
+	{
+		"t":"See beauty in things that others might not notice.",
+		"s":"O2",
+		"k":1
+	},
+	{
+		"t":"Do not like poetry.",
+		"s":"O2",
+		"k":-1
+	},
+	{
+		"t":"Do not enjoy going to art museums.",
+		"s":"O2",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Experience my emotions intensely.",
+		"s":"O3",
+		"k":1
+	},
+	{
+		"t":"Feel others' emotions.",
+		"s":"O3",
+		"k":1
+	},
+	{
+		"t":"Rarely notice my emotional reactions.",
+		"s":"O3",
+		"k":-1
+	},
+	{
+		"t":"Don't understand people who get emotional.",
+		"s":"O3",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Prefer variety to routine.",
+		"s":"O4",
+		"k":1
+	},
+	{
+		"t":"Prefer to stick with things that I know.",
+		"s":"O4",
+		"k":-1
+	},
+	{
+		"t":"Dislike changes.",
+		"s":"O4",
+		"k":-1
+	},
+	{
+		"t":"Am attached to conventional ways.",
+		"s":"O4",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Love to read challenging material.",
+		"s":"O5",
+		"k":1
+	},
+	{
+		"t":"Avoid philosophical discussions.",
+		"s":"O5",
+		"k":-1
+	},
+	{
+		"t":"Have difficulty understanding abstract ideas.",
+		"s":"O5",
+		"k":-1
+	},
+	{
+		"t":"Am not interested in theoretical discussions.",
+		"s":"O5",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Tend to vote for liberal political candidates.",
+		"s":"O6",
+		"k":1
+	},
+	{
+		"t":"Believe that there is no absolute right and wrong.",
+		"s":"O6",
+		"k":1
+	},
+	{
+		"t":"Tend to vote for conservative political candidates.",
+		"s":"O6",
+		"k":-1
+	},
+	{
+		"t":"Believe that we should be tough on crime.",
+		"s":"O6",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Trust others.",
+		"s":"A1",
+		"k":1
+	},
+	{
+		"t":"Believe that others have good intentions.",
+		"s":"A1",
+		"k":1
+	},
+	{
+		"t":"Trust what people say.",
+		"s":"A1",
+		"k":1
+	},
+	{
+		"t":"Distrust people.",
+		"s":"A1",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Use others for my own ends.",
+		"s":"A2",
+		"k":-1
+	},
+	{
+		"t":"Cheat to get ahead.",
+		"s":"A2",
+		"k":-1
+	},
+	{
+		"t":"Take advantage of others.",
+		"s":"A2",
+		"k":-1
+	},
+	{
+		"t":"Obstruct others' plans.",
+		"s":"A2",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Am concerned about others.",
+		"s":"A3",
+		"k":1
+	},
+	{
+		"t":"Love to help others.",
+		"s":"A3",
+		"k":1
+	},
+	{
+		"t":"Am indifferent to the feelings of others.",
+		"s":"A3",
+		"k":-1
+	},
+	{
+		"t":"Take no time for others.",
+		"s":"A3",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Love a good fight.",
+		"s":"A4",
+		"k":-1
+	},
+	{
+		"t":"Yell at people.",
+		"s":"A4",
+		"k":-1
+	},
+	{
+		"t":"Insult people.",
+		"s":"A4",
+		"k":-1
+	},
+	{
+		"t":"Get back at others.",
+		"s":"A4",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Believe that I am better than others.",
+		"s":"A5",
+		"k":-1
+	},
+	{
+		"t":"Think highly of myself.",
+		"s":"A5",
+		"k":-1
+	},
+	{
+		"t":"Have a high opinion of myself.",
+		"s":"A5",
+		"k":-1
+	},
+	{
+		"t":"Boast about my virtues.",
+		"s":"A5",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Sympathize with the homeless.",
+		"s":"A6",
+		"k":1
+	},
+	{
+		"t":"Feel sympathy for those who are worse off than myself.",
+		"s":"A6",
+		"k":1
+	},
+	{
+		"t":"Am not interested in other people's problems.",
+		"s":"A6",
+		"k":-1
+	},
+	{
+		"t":"Try not to think about the needy.",
+		"s":"A6",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Complete tasks successfully.",
+		"s":"C1",
+		"k":1
+	},
+	{
+		"t":"Excel in what I do.",
+		"s":"C1",
+		"k":1
+	},
+	{
+		"t":"Handle tasks smoothly.",
+		"s":"C1",
+		"k":1
+	},
+	{
+		"t":"Know how to get things done.",
+		"s":"C1",
+		"k":1
+	},
+
+
+
+	{
+		"t":"Like to tidy up.",
+		"s":"C2",
+		"k":1
+	},
+	{
+		"t":"Often forget to put things back in their proper place.",
+		"s":"C2",
+		"k":-1
+	},
+	{
+		"t":"Leave a mess in my room.",
+		"s":"C2",
+		"k":-1
+	},
+	{
+		"t":"Leave my belongings around.",
+		"s":"C2",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Keep my promises.",
+		"s":"C3",
+		"k":1
+	},
+	{
+		"t":"Tell the truth.",
+		"s":"C3",
+		"k":1
+	},
+	{
+		"t":"Break rules.",
+		"s":"C3",
+		"k":-1
+	},
+	{
+		"t":"Break my promises.",
+		"s":"C3",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Do more than what's expected of me.",
+		"s":"C4",
+		"k":1
+	},
+	{
+		"t":"Work hard.",
+		"s":"C4",
+		"k":1
+	},
+	{
+		"t":"Put little time and effort into my work.",
+		"s":"C4",
+		"k":-1
+	},
+	{
+		"t":"Do just enough work to get by.",
+		"s":"C4",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Am always prepared.",
+		"s":"C5",
+		"k":1
+	},
+	{
+		"t":"Carry out my plans.",
+		"s":"C5",
+		"k":1
+	},
+	{
+		"t":"Waste my time.",
+		"s":"C5",
+		"k":-1
+	},
+	{
+		"t":"Have difficulty starting tasks.",
+		"s":"C5",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Jump into things without thinking.",
+		"s":"C6",
+		"k":-1
+	},
+	{
+		"t":"Make rash decisions.",
+		"s":"C6",
+		"k":-1
+	},
+	{
+		"t":"Rush into things.",
+		"s":"C6",
+		"k":-1
+	},
+	{
+		"t":"Act without thinking.",
+		"s":"C6",
+		"k":-1
+	}
+
+]

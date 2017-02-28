@@ -1,0 +1,690 @@
+[
+	{
+		"t":"Me preocupo por las situaciones.",
+		"s":"N1",
+		"k":1
+	},
+	{
+		"t":"Temo lo peor.",
+		"s":"N1",
+		"k":1
+	},
+	{
+		"t":"Me asustan muchas cosas.",
+		"s":"N1",
+		"k":1
+	},
+	{
+		"t":"Me estreso fácilmente.",
+		"s":"N1",
+		"k":1
+	},
+
+
+
+	{
+		"t":"Me enojo fácilmente.",
+		"s":"N2",
+		"k":1
+	},
+	{
+		"t":"Me irrito fácilmente.",
+		"s":"N2",
+		"k":1
+	},
+	{
+		"t":"Pierdo la cabeza.",
+		"s":"N2",
+		"k":1
+	},
+	{
+		"t":"No me molesto fácilmente.",
+		"s":"N2",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"A menudo me siento triste.",
+		"s":"N3",
+		"k":1
+	},
+	{
+		"t":"No me gusto a mí mismo.",
+		"s":"N3",
+		"k":1
+	},
+	{
+		"t":"A menudo me siento desanimado.",
+		"s":"N3",
+		"k":1
+	},
+	{
+		"t":"Estoy conforme conmigo mismo.",
+		"s":"N3",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Me cuesta abordar a otros.",
+		"s":"N4",
+		"k":1
+	},
+	{
+		"t":"Temo atraer atención hacia mí.",
+		"s":"N4",
+		"k":1
+	},
+	{
+		"t":"Solo me siento cómodo con amigos.",
+		"s":"N4",
+		"k":1
+	},
+	{
+		"t":"No me molestan las situaciones sociales difíciles.",
+		"s":"N4",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Tengo adicciones.",
+		"s":"N5",
+		"k":1
+	},
+	{
+		"t":"Pocas veces doy rienda suelta a gustos y placeres.",
+		"s":"N5",
+		"k":-1
+	},
+	{
+		"t":"Resisto tentaciones fácilmente.",
+		"s":"N5",
+		"k":-1
+	},
+	{
+		"t":"Soy capaz de controlar mis deseos.",
+		"s":"N5",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Entro en pánico fácilmente.",
+		"s":"N6",
+		"k":1
+	},
+	{
+		"t":"Resulto abrumado por los acontecimientos.",
+		"s":"N6",
+		"k":1
+	},
+	{
+		"t":"Siento que no puedo manejar las situaciones.",
+		"s":"N6",
+		"k":1
+	},
+	{
+		"t":"Mantengo la calma bajo presión.",
+		"s":"N6",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Hago amigos fácilmente.",
+		"s":"E1",
+		"k":1
+	},
+	{
+		"t":"Me siento cómodo con personas alrededor.",
+		"s":"E1",
+		"k":1
+	},
+	{
+		"t":"Evito el contacto con otros.",
+		"s":"E1",
+		"k":-1
+	},
+	{
+		"t":"Mantengo a los demás a distancia.",
+		"s":"E1",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Amo las grandes fiestas.",
+		"s":"E2",
+		"k":1
+	},
+	{
+		"t":"Hablo con muchas personas en fiestas.",
+		"s":"E2",
+		"k":1
+	},
+	{
+		"t":"Prefiero estar solo.",
+		"s":"E2",
+		"k":-1
+	},
+	{
+		"t":"Evito las multitudes.",
+		"s":"E2",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Tomo la iniciativa.",
+		"s":"E3",
+		"k":1
+	},
+	{
+		"t":"Trato de guiar a otros.",
+		"s":"E3",
+		"k":1
+	},
+	{
+		"t":"Tomo control de las cosas.",
+		"s":"E3",
+		"k":1
+	},
+	{
+		"t":"Espero a que otros señalen el camino a seguir.",
+		"s":"E3",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Siempre estoy ocupado.",
+		"s":"E4",
+		"k":1
+	},
+	{
+		"t":"Siempre estoy muy activo y en movimiento.",
+		"s":"E4",
+		"k":1
+	},
+	{
+		"t":"Hago muchas cosas en mi tiempo libre.",
+		"s":"E4",
+		"k":1
+	},
+	{
+		"t":"Me gusta tomar las cosas con calma.",
+		"s":"E4",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Amo la emoción.",
+		"s":"E5",
+		"k":1
+	},
+	{
+		"t":"Busco la aventura.",
+		"s":"E5",
+		"k":1
+	},
+	{
+		"t":"Disfruto ser temerario.",
+		"s":"E5",
+		"k":1
+	},
+	{
+		"t":"Actúo desenfrenado y loco.",
+		"s":"E5",
+		"k":1
+	},
+
+
+
+	{
+		"t":"Irradio alegría.",
+		"s":"E6",
+		"k":1
+	},
+	{
+		"t":"Me divierto mucho.",
+		"s":"E6",
+		"k":1
+	},
+	{
+		"t":"Amo la vida.",
+		"s":"E6",
+		"k":1
+	},
+	{
+		"t":"Veo el lado bueno de la vida.",
+		"s":"E6",
+		"k":1
+	},
+
+
+
+	{
+		"t":"Tengo una imaginación vívida.",
+		"s":"O1",
+		"k":1
+	},
+	{
+		"t":"Disfruto de vuelos salvajes de fantasía.",
+		"s":"O1",
+		"k":1
+	},
+	{
+		"t":"Amo soñar despierto.",
+		"s":"O1",
+		"k":1
+	},
+	{
+		"t":"Me gusta perderme en el pensamiento.",
+		"s":"O1",
+		"k":1
+	},
+
+
+
+	{
+		"t":"Creo en la importancia del arte.",
+		"s":"O2",
+		"k":1
+	},
+	{
+		"t":"Veo belleza en cosas que otros a veces no notan.",
+		"s":"O2",
+		"k":1
+	},
+	{
+		"t":"No me gusta la poesía.",
+		"s":"O2",
+		"k":-1
+	},
+	{
+		"t":"No disfruto de ir a museos de arte.",
+		"s":"O2",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Experimento mis emociones intensamente.",
+		"s":"O3",
+		"k":1
+	},
+	{
+		"t":"Siento las emociones de otros",
+		"s":"O3",
+		"k":1
+	},
+	{
+		"t":"Pocas veces noto mis reacciones emocionales.",
+		"s":"O3",
+		"k":-1
+	},
+	{
+		"t":"No comprendo a las personas que se ponen emocionales.",
+		"s":"O3",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Prefiero la variedad a la rutina.",
+		"s":"O4",
+		"k":1
+	},
+	{
+		"t":"Prefiero quedarme con las cosas que conozco.",
+		"s":"O4",
+		"k":-1
+	},
+	{
+		"t":"Me disgustan los cambios.",
+		"s":"O4",
+		"k":-1
+	},
+	{
+		"t":"Estoy ligado a maneras convencionales de hacer las cosas.",
+		"s":"O4",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Amo leer cosas retadoras para mí.",
+		"s":"O5",
+		"k":1
+	},
+	{
+		"t":"Evito las discusiones filosóficas.",
+		"s":"O5",
+		"k":-1
+	},
+	{
+		"t":"Tengo dificultad comprendiendo ideas abstractas.",
+		"s":"O5",
+		"k":-1
+	},
+	{
+		"t":"No me interesan las discusiones teóricas.",
+		"s":"O5",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Tiendo a votar por candidatos políticos liberales.",
+		"s":"O6",
+		"k":1
+	},
+	{
+		"t":"Creo que no hay bien y mal absolutos.",
+		"s":"O6",
+		"k":1
+	},
+	{
+		"t":"Tiendo a votar por candidatos políticos conservadores.",
+		"s":"O6",
+		"k":-1
+	},
+	{
+		"t":"Creo que deberíamos ser duros con el crimen.",
+		"s":"O6",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Confío en otros.",
+		"s":"A1",
+		"k":1
+	},
+	{
+		"t":"Creo que los demás tienen buenas intenciones.",
+		"s":"A1",
+		"k":1
+	},
+	{
+		"t":"Confío en lo que las personas dicen.",
+		"s":"A1",
+		"k":1
+	},
+	{
+		"t":"Desconfío de las personas.",
+		"s":"A1",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Uso a otros para mis propios objetivos.",
+		"s":"A2",
+		"k":-1
+	},
+	{
+		"t":"Hago trampa para ser exitoso.",
+		"s":"A2",
+		"k":-1
+	},
+	{
+		"t":"Tomo ventaja de los demás.",
+		"s":"A2",
+		"k":-1
+	},
+	{
+		"t":"Obstruyo los planes de otros.",
+		"s":"A2",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Me preocupo por los demás.",
+		"s":"A3",
+		"k":1
+	},
+	{
+		"t":"Amo ayudar a otros.",
+		"s":"A3",
+		"k":1
+	},
+	{
+		"t":"Soy indiferente a los sentimientos de los demás.",
+		"s":"A3",
+		"k":-1
+	},
+	{
+		"t":"No saco tiempo para los demás.",
+		"s":"A3",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Amo una buena pelea.",
+		"s":"A4",
+		"k":-1
+	},
+	{
+		"t":"Grito a las personas.",
+		"s":"A4",
+		"k":-1
+	},
+	{
+		"t":"Insulto a las personas.",
+		"s":"A4",
+		"k":-1
+	},
+	{
+		"t":"Tomo revancha de los demás.",
+		"s":"A4",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Creo que soy mejor que los demás.",
+		"s":"A5",
+		"k":-1
+	},
+	{
+		"t":"Pienso muy bien de mí mismo.",
+		"s":"A5",
+		"k":-1
+	},
+	{
+		"t":"Tengo una opinión elevada de mí mismo.",
+		"s":"A5",
+		"k":-1
+	},
+	{
+		"t":"Hago alarde de mis virtudes.",
+		"s":"A5",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Simpatizo con las personas sin hogar.",
+		"s":"A6",
+		"k":1
+	},
+	{
+		"t":"Siento simpatía por quienes están en peor situación que yo.",
+		"s":"A6",
+		"k":1
+	},
+	{
+		"t":"No estoy interesado en los problemas de otras personas.",
+		"s":"A6",
+		"k":-1
+	},
+	{
+		"t":"Trato de no pensar en las personas necesitadas.",
+		"s":"A6",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Completo las tareas con éxito.",
+		"s":"C1",
+		"k":1
+	},
+	{
+		"t":"Destaco en lo que hago.",
+		"s":"C1",
+		"k":1
+	},
+	{
+		"t":"Manejo las tareas sin problemas.",
+		"s":"C1",
+		"k":1
+	},
+	{
+		"t":"Logro que las cosas se hagan.",
+		"s":"C1",
+		"k":1
+	},
+
+
+
+	{
+		"t":"Me gusta ordenar.",
+		"s":"C2",
+		"k":1
+	},
+	{
+		"t":"A menudo olvido poner las cosas en su lugar.",
+		"s":"C2",
+		"k":-1
+	},
+	{
+		"t":"Dejo un desorden en mi cuarto.",
+		"s":"C2",
+		"k":-1
+	},
+	{
+		"t":"Dejo mis pertenencias en cualquier parte.",
+		"s":"C2",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Mantengo mis promesas.",
+		"s":"C3",
+		"k":1
+	},
+	{
+		"t":"Digo la verdad.",
+		"s":"C3",
+		"k":1
+	},
+	{
+		"t":"Rompo las reglas.",
+		"s":"C3",
+		"k":-1
+	},
+	{
+		"t":"Rompo mis promesas.",
+		"s":"C3",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Hago más de lo que se espera de mí.",
+		"s":"C4",
+		"k":1
+	},
+	{
+		"t":"Trabajo duro.",
+		"s":"C4",
+		"k":1
+	},
+	{
+		"t":"Pongo poco tiempo y esfuerzo en mi trabajo.",
+		"s":"C4",
+		"k":-1
+	},
+	{
+		"t":"Hago solo el trabajo que sea necesario.",
+		"s":"C4",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Siempre estoy preparado.",
+		"s":"C5",
+		"k":1
+	},
+	{
+		"t":"Ejecuto mis planes.",
+		"s":"C5",
+		"k":1
+	},
+	{
+		"t":"Pierdo mi tiempo.",
+		"s":"C5",
+		"k":-1
+	},
+	{
+		"t":"Tengo dificultad para empezar tareas.",
+		"s":"C5",
+		"k":-1
+	},
+
+
+
+	{
+		"t":"Salto a las cosas sin pensar.",
+		"s":"C6",
+		"k":-1
+	},
+	{
+		"t":"Tomo decisiones apresuradas.",
+		"s":"C6",
+		"k":-1
+	},
+	{
+		"t":"Me apresuro a actuar.",
+		"s":"C6",
+		"k":-1
+	},
+	{
+		"t":"Actúo sin pensar.",
+		"s":"C6",
+		"k":-1
+	}
+
+]

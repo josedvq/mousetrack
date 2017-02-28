@@ -1,0 +1,102 @@
+extends layout
+
+block content
+
+    each stylesheet in css
+        link(rel="stylesheet" href=stylesheet)
+
+    div.container 
+        div.row
+            div.col-xs-12
+
+                form(action="results",method="post",id="mainForm")
+
+                    h2= t("BASIC.TITLE")
+
+                    p= t("BASIC.BLABLA")
+
+                    p= t("BASIC.PLEASE")
+
+                    p #{t("BASIC.AGE")}:
+                        input(type="text" name="age" class="input-age")
+
+                    p #{t("BASIC.SEX")}:
+                    p.form-sex
+                        
+                        input(type="radio",name="sex",value="m",id="sex_m")
+                        label(for="sex_m") #{t("BASIC.SEX_MALE")}
+                        
+                        input(type="radio",name="sex",value="f",id="sex_f")
+                        label(for="sex_f") #{t("BASIC.SEX_FEMALE")} 
+
+                    p.form-country #{t("BASIC.COUNTRY")}:
+                        select(name="country")
+                            each country in countries
+                                option(value=country.c)= country.n
+
+                    p #{t("BASIC.MIND")}
+                    p.form-mind
+                        
+                        input(type="radio",name="mind",value="calm",id="s_calm")
+                        label(for="s_calm") #{t("BASIC.MIND.CALM")}
+                        
+                        input(type="radio",name="mind",value="hurried",id="s_alt")
+                        label(for="s_alt") #{t("BASIC.MIND.HURRIED")}  
+                        
+                        input(type="radio",name="mind",value="upset",id="s_hurr")
+                        label(for="s_hurr") #{t("BASIC.MIND.UPSET")}
+                        
+                        input(type="radio",name="mind",value="cheerful",id="s_bored")
+                        label(for="s_bored") #{t("BASIC.MIND.CHEERFUL")}  
+                        
+                        input(type="radio",name="mind",value="other",id="s_bored")
+                        label(for="s_bored") #{t("BASIC.MIND.OTHER")}
+
+                    p= t("BASIC.INSTRUCTIONS1")
+
+                    p= t("BASIC.INSTRUCTIONS2")
+
+                    p= t("BASIC.INSTRUCTIONS3")
+
+                    div#test
+                        each item, i in items
+                            div.item
+                                div.row
+                                    div.col-xs-12.text-center
+                                        div.assertion
+                                            span= (i+1)
+                                            span= ". "
+                                            span= item.t
+                                div.row.item-radios
+                                    div
+                                        input(type="radio", name="p"+item.id, id="p"+item.id+"-1", value="1")
+                                        br
+                                        label(for="p"+item.id+"-1") #{t("OPTIONS.VERY_INACCURATE")}
+                                        
+                                    div
+                                        
+                                        input(type="radio", name="p"+item.id, id="p"+item.id+"-2", value="2")
+                                        br
+                                        label(for="p"+item.id+"-2") #{t("OPTIONS.MOD_INACCURATE")}
+                                    div
+                                        
+                                        input(type="radio", name="p"+item.id, id="p"+item.id+"-3", value="3")
+                                        br
+                                        label(for="p"+item.id+"-3") #{t("OPTIONS.MEH")}
+                                    div
+                                        
+                                        input(type="radio", name="p"+item.id, id="p"+item.id+"-4", value="4")
+                                        br
+                                        label(for="p"+item.id+"-4") #{t("OPTIONS.MOD_ACCURATE")}
+                                    div
+                                        
+                                        input(type="radio", name="p"+item.id, id="p"+item.id+"-5", value="5")
+                                        br
+                                        label(for="p"+item.id+"-5") #{t("OPTIONS.VERY_ACCURATE")}
+
+                    div.footer
+                        a(href="javascript: handleSubmit()" class="btn btn-primary" id="submit-btn") #{t("SUBMIT")}
+
+    <script>
+    include mousetrack.js
+    </script>
