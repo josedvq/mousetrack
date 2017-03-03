@@ -2,27 +2,19 @@
 
 	var userId;
     var sendTries = 0;
-    var sendMaxTries = 10;
-    var userUrl = 'http://localhost:3000/user';
 
 	//
 	// Mouse Tracking
 	//
 
-	var locationN = 2000;
 	var locationArray = [];
-	var locationUrl = 'http://localhost:3000/location';
-	var locationMaxAttempts = 5;
     var unsentLocationPackets = 0;
     var unsuccessfulLocationPackets = 0;
 
     //
     // Scroll Tracking
     //
-    var scrollN = 2000;
     var scrollArray = [];
-    var scrollUrl = 'http://localhost:3000/scroll';
-    var scrollMaxAttempts = 5;
     var unsentScrollPackets = 0;
     var unsuccessfulScrollPackets = 0;
 
