@@ -244,7 +244,7 @@
             }
         }
         // If a radio is not checked
-        if(numberChecked < radios.length / 5) {
+        if(unanswered.length != 0) {
             alert("Please rate all the items. The following are unanswered: "+unanswered.join(", "));
             return;
         }
