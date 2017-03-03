@@ -98,3 +98,15 @@
     text-align: center;
     padding-bottom: 20px;
 }
+
+/* Adjust label sizes */
+label {
+    font-size: 0.9em;
+    font-weight: normal;
+}
+@media (min-width: 768px) {
+    label {
+        font-weight: 700;
+        font-size: 1em;
+    }
+}
