@@ -1,4 +1,5 @@
 var express = require('express');
+var app = express();
 var config = require('../config.js');
 var router = express.Router();
 var MongoClient = require('mongodb').MongoClient;
@@ -66,6 +67,7 @@ router.get('/', function(req, res, next) {
 		css: config.stylesheets,
 		items: items[res.locale],
 		countries: countries[res.locale],
+		env: app.get('env'),
 		t: res.__ 
 	});
 });

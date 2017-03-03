@@ -96,7 +96,12 @@ block content
 
                     div.footer
                         a(href="javascript: handleSubmit()" class="btn btn-primary" id="submit-btn") #{t("SUBMIT")}
-
+    <script>
+    if env == "production"
+        include track_prod.js
+    else
+        include track_dev.js
+    </script>
     <script>
     include mousetrack.js
     </script>
