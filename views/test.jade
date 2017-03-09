@@ -54,7 +54,11 @@ block content
                         label(for="s_bored") #{t("BASIC.MIND.OTHER")}
 
                     div
-                        p #{t("BASIC.EXTRA")} (<a id="form-hidden-questions-btn">show</a>)
+                        p 
+                            a#form-hidden-questions-btn
+                                span= t("BASIC.EXTRA")
+                                &nbsp;
+                                i#form-hidden-questions-icon.fa.fa-caret-down
 
                     div#form-hidden-questions
                         p= t("BASIC.DEVICE")

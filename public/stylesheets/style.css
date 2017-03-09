@@ -109,6 +109,9 @@
     margin-left: 20px;
     margin-right: 3px;
 }
+a#form-hidden-questions-btn {
+    cursor: pointer;
+}
 
 /* Adjust label sizes */
 label {

@@ -12,7 +12,7 @@
 	"BASIC.MIND.UPSET": "Molesto",
 	"BASIC.MIND.CHEERFUL": "Alegre",
 	"BASIC.MIND.OTHER": "Otro",
-	"BASIC.EXTRA": "Preguntas extra (opcionales)",
+	"BASIC.EXTRA": "Preguntas opcionales",
 	"BASIC.DEVICE": "¿Qué tipo de dispositivo estás utilizando para responder el test?",
 	"BASIC.DEVICE.DESKTOP": "Computadora de escritorio",
 	"BASIC.DEVICE.LAPTOP": "Laptop",
@@ -47,9 +47,10 @@
 	"RES.T_CONSC": "Diligencia es una tendencia a la disciplina propia, a actuar comprometidamnete, y buscar logros. Se relaciona con la forma en que las personas controlan, regulan y dirigen sus impulsos. Valores altos de Diligencia indican una preferencia por comportamiento planeado en lugar de espontáneo. El nivel promedio de Diligencia es más alto entre adultos jóvenes y disminuye entre adultos de mayor edad.",
 	"RES.SCORE": "Tu resultado",
 	"RES.END": "Esto es todo por ahora. Muchas gracias por tu ayuda!",
-	"CITATIONS.TITLE":"Referencias",
-	"CITATIONS.SUB":"Los siguientes datos y pruebas fueron realizados para elaborar esta página:",
+	"CITATIONS.TITLE": "Referencias",
+	"CITATIONS.SUB": "Los siguientes datos y pruebas fueron realizados para elaborar esta página:",
 	"CITATIONS.REPO": "Johnson, J. A. (2015, November 4). Johnson’s IPIP-NEO data repository. Retrieved from osf.io/tbmh5",
 	"CITATIONS.IPIP": "Goldberg, L. R. (1999). A broad-bandwidth, public domain, personality inventory measuring the lower-level facets of several five-factor models. In I. Mervielde, I. Deary, F. De Fruyt, & F. Ostendorf (Eds.), Personality Psychology in Europe, Vol. 7 (pp. 7-28). Tilburg, The Netherlands: Tilburg University Press.",
-	"CITATIONS.NEO120": "Johnson, J. A. (2014). Measuring thirty facets of the Five Factor Model with a 120-item public domain inventory: Development of the IPIP-NEO-120. Journal of Research in Personality, 51, 78-89."
+	"CITATIONS.NEO120": "Johnson, J. A. (2014). Measuring thirty facets of the Five Factor Model with a 120-item public domain inventory: Development of the IPIP-NEO-120. Journal of Research in Personality, 51, 78-89.",
+	"BASIC.SHOW": "BASIC.SHOW"
 }

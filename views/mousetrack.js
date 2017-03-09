@@ -234,9 +234,9 @@
         var date = new Date();
 
         document.getElementById("form-hidden-questions").style.display = 'block';
-        event.target.text = 'hide';
-        event.target.removeEventListener('click',showHiddenQuestions);
-        event.target.addEventListener('click',hideHiddenQuestions); 
+        document.getElementById("form-hidden-questions-btn").removeEventListener('click',showHiddenQuestions);
+        document.getElementById("form-hidden-questions-btn").addEventListener('click',hideHiddenQuestions); 
+        document.getElementById('form-hidden-questions-icon').className = 'fa fa-caret-up';
 
         // register the event
         hiddenQuestionEvents.push({ev:'show',t:date.getTime()});
@@ -246,9 +246,9 @@
         var date = new Date();
 
         document.getElementById("form-hidden-questions").style.display = 'none';
-        event.target.text = 'show';
-        event.target.removeEventListener('click',hideHiddenQuestions);
-        event.target.addEventListener('click',showHiddenQuestions); 
+        document.getElementById("form-hidden-questions-btn").removeEventListener('click',hideHiddenQuestions);
+        document.getElementById("form-hidden-questions-btn").addEventListener('click',showHiddenQuestions); 
+        document.getElementById('form-hidden-questions-icon').className = 'fa fa-caret-down';
 
         // register the event
         hiddenQuestionEvents.push({ev:'hide',t:date.getTime()});

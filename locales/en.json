@@ -12,7 +12,7 @@
 	"BASIC.MIND.UPSET":"Upset",
 	"BASIC.MIND.CHEERFUL":"Cheerful",
 	"BASIC.MIND.OTHER":"Other",
-	"BASIC.EXTRA": "Extra questions (optional)",
+	"BASIC.EXTRA": "Optional questions",
 	"BASIC.DEVICE": "¿What kind of device are you using to answer the test?",
 	"BASIC.DEVICE.DESKTOP": "Desktop computer",
 	"BASIC.DEVICE.LAPTOP": "Laptop",
