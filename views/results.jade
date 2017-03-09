@@ -29,6 +29,9 @@ block content
                     div.col-xs-0.col-sm-2.col-md-3
                     div.col-xs-12.col-sm-8.col-md-6
                         div.ct-chart.ct-perfect-fourth#chart0
+                        div.text-center
+                            span= t("RES.SCORE")+": "
+                            span= userResults[4]
 
                 h4= t("RES.EXTRAV")
                 p= t("RES.T_EXTRAV")
@@ -36,13 +39,19 @@ block content
                     div.col-xs-0.col-sm-2.col-md-3
                     div.col-xs-12.col-sm-8.col-md-6
                         div.ct-chart.ct-perfect-fourth#chart1
-
+                        div.text-center
+                            span= t("RES.SCORE")+": "
+                            span= userResults[4]
+                            
                 h4= t("RES.OPENN")
                 p= t("RES.T_OPENN")
                 div.row
                     div.col-xs-0.col-sm-2.col-md-3
                     div.col-xs-12.col-sm-8.col-md-6
                         div.ct-chart.ct-perfect-fourth#chart2
+                        div.text-center
+                            span= t("RES.SCORE")+": "
+                            span= userResults[4]
 
                 h4= t("RES.AGREAB")
                 p= t("RES.T_AGREAB")
@@ -50,6 +59,9 @@ block content
                     div.col-xs-0.col-sm-2.col-md-3
                     div.col-xs-12.col-sm-8.col-md-6
                         div.ct-chart.ct-perfect-fourth#chart3
+                        div.text-center
+                            span= t("RES.SCORE")+": "
+                            span= userResults[4]
 
                 h4= t("RES.CONSC")
                 p= t("RES.T_CONSC")
@@ -57,6 +69,22 @@ block content
                     div.col-xs-0.col-sm-2.col-md-3
                     div.col-xs-12.col-sm-8.col-md-6
                         div.ct-chart.ct-perfect-fourth#chart4
+                        div.text-center
+                            span= t("RES.SCORE")+": "
+                            span= userResults[4]
+
+                div.row
+                    div.col-xs-12
+                        p= t("RES.END")
+
+                div.row#citations
+                    div.col-xs-12
+                        h4= t("CITATIONS.TITLE")
+                        p= t("CITATIONS.SUB")
+                        ol
+                            li #{t("CITATIONS.REPO")}
+                            li #{t("CITATIONS.IPIP")}
+                            li #{t("CITATIONS.NEO120")}
 
     script.
         var options = {};

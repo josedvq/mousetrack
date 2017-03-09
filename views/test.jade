@@ -31,6 +31,7 @@ block content
 
                     p.form-country #{t("BASIC.COUNTRY")}:
                         select(name="country")
+                            option(value="0")= t("BASIC.COUNTRY.SELECT")
                             each country in countries
                                 option(value=country.c)= country.n
 
@@ -51,6 +52,28 @@ block content
                         
                         input(type="radio",name="mind",value="other",id="s_bored")
                         label(for="s_bored") #{t("BASIC.MIND.OTHER")}
+
+                    div
+                        p #{t("BASIC.EXTRA")} (<a id="form-hidden-questions-btn">show</a>)
+
+                    div#form-hidden-questions
+                        p= t("BASIC.DEVICE")
+                        p.form-optional
+
+                        input(type="radio",name="device",value="desktop",id="s_desktop")
+                        label(for="s_desktop") #{t("BASIC.DEVICE.DESKTOP")}
+
+                        input(type="radio",name="device",value="laptop",id="s_laptop")
+                        label(for="s_laptop") #{t("BASIC.DEVICE.LAPTOP")}
+
+                        input(type="radio",name="device",value="phone",id="s_phone")
+                        label(for="s_phone") #{t("BASIC.DEVICE.PHONE")}
+
+                        input(type="radio",name="device",value="tablet",id="s_tablet")
+                        label(for="s_tablet") #{t("BASIC.DEVICE.TABLET")}
+
+                        input(type="radio",name="device",value="other",id="s_other")
+                        label(for="s_other") #{t("BASIC.DEVICE.OTHER")}
 
                     p= t("BASIC.INSTRUCTIONS1")
 
@@ -80,7 +103,7 @@ block content
                                         label(for="p"+item.id+"-2") #{t("OPTIONS.MOD_INACCURATE")}
                                     div
                                         
-                                        input(type="radio", name="p"+item.id, id="p"+item.id+"-3", value="3")
+                                        input(type="radio", name="p"+item.id, id="p"+item.id+"-3", value="3" checked)
                                         br
                                         label(for="p"+item.id+"-3") #{t("OPTIONS.MEH")}
                                     div

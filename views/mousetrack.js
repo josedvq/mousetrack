@@ -24,6 +24,15 @@
     var clickArray = [];
     var sizeArray=[];
 
+    //
+    // Tracking of the hidden form section
+    //
+    var hiddenQuestionEvents = [];
+
+    //
+    // Tracking of the bugged button events
+    //
+    var buggedRadioEvents = [];
 
     //
     // User ID
@@ -214,6 +223,68 @@
         return userData;
     }
 
+
+    //
+    // Hidden question events
+    //
+    document.getElementById("form-hidden-questions-btn").addEventListener('click',showHiddenQuestions);
+    document.getElementById("form-hidden-questions").style.display = 'none';
+    
+    function showHiddenQuestions(event) {
+        var date = new Date();
+
+        document.getElementById("form-hidden-questions").style.display = 'block';
+        event.target.text = 'hide';
+        event.target.removeEventListener('click',showHiddenQuestions);
+        event.target.addEventListener('click',hideHiddenQuestions); 
+
+        // register the event
+        hiddenQuestionEvents.push({ev:'show',t:date.getTime()});
+    }
+
+    function hideHiddenQuestions(event) {
+        var date = new Date();
+
+        document.getElementById("form-hidden-questions").style.display = 'none';
+        event.target.text = 'show';
+        event.target.removeEventListener('click',hideHiddenQuestions);
+        event.target.addEventListener('click',showHiddenQuestions); 
+
+        // register the event
+        hiddenQuestionEvents.push({ev:'hide',t:date.getTime()});
+    }
+
+
+    //
+    // Bugged radios
+    //
+
+    // Bug the radios
+    var buggedRadioIds = [31, 14]; // -> [19,97]
+    var clickedRadioIds = [];
+    for(var i = 0; i < buggedRadioIds.length; i++) {
+        for(var j = 0; j < 5; j++) {
+            document.getElementById("p"+buggedRadioIds[i]+"-"+(j+1)).addEventListener('click',handleBuggedRadioClick);
+        }
+    }
+    function handleBuggedRadioClick(event) {
+        var date = new Date();
+
+        var id = event.target.id.split("-")[0];
+        
+        if(clickedRadioIds.indexOf(id) === -1) {
+            clickedRadioIds.push(id);
+            buggedRadioEvents.push({id:id,t:date.getTime()});
+            event.preventDefault();
+            return false;
+        } else {
+            buggedRadioEvents.push({id:id,t:date.getTime()});
+        }
+    }
+    
+    //
+    // Submit
+    //
     function handleSubmit(event) {
 
         var date = new Date();
@@ -278,7 +349,9 @@
             "uid=" + userId + 
             "&agent=" + encodeURIComponent(JSON.stringify(getUserData())) +
             "&clicks=" + encodeURIComponent(JSON.stringify(clickArray)) +
-            "&sizes=" + encodeURIComponent(JSON.stringify(sizeArray))
+            "&sizes=" + encodeURIComponent(JSON.stringify(sizeArray)) + 
+            "&hiddenqev=" + encodeURIComponent(JSON.stringify(hiddenQuestionEvents)) +
+            "&buggedradioev" + encodeURIComponent(JSON.stringify(buggedRadioEvents))
         );
     }
 

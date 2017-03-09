@@ -99,6 +99,17 @@
     padding-bottom: 20px;
 }
 
+/* Hidden questions */
+#form-hidden-questions {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+#form-hidden-questions > input[type="radio"] {
+    margin-left: 20px;
+    margin-right: 3px;
+}
+
 /* Adjust label sizes */
 label {
     font-size: 0.9em;
