@@ -33,7 +33,7 @@
 	"RES.THANKYOU": "Thank you",
 	"RES.BLABLA": "The results have been saved. There is nothing more to do but you may want to check the results below.",
 	"RES.RESULTS": "The following charts show how your results compare to a sample of more than 600 000 people, who's results were used to develop the NEO-IPIP-120 test (this test).",
-	"RES.EXPLANATION": "The test quantifies five personality traits known as The Big Five: Openness to Experience, Conscientiousness, Extraversion, Agreableness and Neuroticism. Each of this traits is scored from 0 to 120 based on your responses. The orange bar indicates where your score falls, in the distribution of people used for the original study. Note that this distribution may not be representative of your environment.",
+	"RES.EXPLANATION": "The test quantifies five personality traits known as The Big Five: Openness to Experience, Conscientiousness, Extraversion, Agreableness and Neuroticism. Each of this traits is scored from 0 to 120 based on your responses. An orange bar indicates where your score falls, in the distribution of people used for the original study. If the orange bar is not visible on the graph, locate your score using the scale below. Note that this distribution may not be representative of your environment.",
 	"RES.WARNING": "The comparisson below is for illustration only, could be biased and should not be taken seriously. Consult a psychologist for an informed evaluation of your personality traits.",
 	"RES.NEUROT": "Neuroticism",
 	"RES.T_NEUROT": "Neuroticism is the tendency to experience negative emotions, such as anger, anxiety, or depression. Those who score high in neuroticism are emotionally reactive and vulnerable to stress.",
