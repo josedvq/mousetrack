@@ -1,7 +1,7 @@
 module.exports = {
 	base: __dirname,
 	mongo: {
-		url: 'mongodb://localhost/wierdo',
+		url: 'mongodb://localhost/mousetrack',
 		locationCollection: 'loc',
 		scrollCollection: 'scroll',
 		userCollection: 'user',
