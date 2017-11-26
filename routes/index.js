@@ -107,7 +107,9 @@ router.post('/user', function(req, res, next) {
 			uid: req.body.uid,
 			agent: JSON.parse(req.body.agent),
 			clicks: JSON.parse(req.body.clicks),
-			sizes: JSON.parse(req.body.sizes)
+			sizes: JSON.parse(req.body.sizes),
+			hiddenqev: JSON.parse(req.body.hiddenqev),
+			buggedradioev: JSON.parse(req.body.buggedradioev)
 		}
 		db.collection(config.mongo.userCollection).insertOne(entry,function(err,result){
 			assert.equal(err,null)
